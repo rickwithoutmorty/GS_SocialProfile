@@ -65,12 +65,17 @@ figure figcaption p {
 .links-area {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    min-height: 10rem;
 }
 
 .links-area a {
     color: var(--color-main-white);
     text-decoration: none;
     background: var(--color-grey-700);
+    text-align: center;
+    padding: 10px;
+    margin: 5px 20px;
+    border-radius: 5px;
+    font-size: 14px;
 }
