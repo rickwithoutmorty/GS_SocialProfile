@@ -26,6 +26,29 @@ main {
     flex-direction: column;
     background: var(--color-grey-800);
     min-height: 580px;
+    border-radius: 15px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+figure img {
+    height: 8rem;
+    border-radius: 100px            ;
+}
+
+figure figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure figcaption p {
+    color: var(--color-main-green);
 }
 
 .links-area {
@@ -36,7 +59,6 @@ main {
 }
 
 .links-area a {
-    display: flex;
     color: var(--color-main-white);
     text-decoration: none;
     background: var(--color-grey-700);
