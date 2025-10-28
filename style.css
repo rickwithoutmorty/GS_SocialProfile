@@ -1,3 +1,21 @@
+:root {
+    --color-main-green: hsl(75, 94%, 57%);
+    --color-main-white: hsl(0, 0%, 100%);
+    --color-grey-700: hsl(0, 0%, 20%);
+    --color-grey-800: hsl(0, 0%, 12%);
+    --color-grey-900: hsl(0, 0%, 8%);
+}
+
 body {
-    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 95vh;
+    color: var(--color-main-white);
+    background: var(--color-grey-900);
+}
+
+main {
+    background: var(--color-grey-800);
 }
