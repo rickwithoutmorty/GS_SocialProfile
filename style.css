@@ -6,6 +6,10 @@
     --color-grey-900: hsl(0, 0%, 8%);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -14,8 +18,26 @@ body {
     min-height: 95vh;
     color: var(--color-main-white);
     background: var(--color-grey-900);
+    font-family: "Inter", sans-serif;
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     background: var(--color-grey-800);
+    min-height: 580px;
+}
+
+.links-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links-area a {
+    display: flex;
+    color: var(--color-main-white);
+    text-decoration: none;
+    background: var(--color-grey-700);
 }
