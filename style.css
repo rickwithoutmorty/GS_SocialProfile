@@ -47,9 +47,20 @@ figure figcaption {
     align-items: center;
 }
 
+figure figcaption h1 {
+    margin-bottom: 0px;
+}
+
+figure p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
 figure figcaption p {
     color: var(--color-main-green);
+    font-weight: 600;
 }
+
 
 .links-area {
     display: flex;
